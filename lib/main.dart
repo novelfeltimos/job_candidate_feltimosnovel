@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'pages/profile_page.dart';
-import 'models/candidate.dart';
 // import 'pages/data_page.dart';
 
 void main() {
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => HomePage(),
         '/profile': (context) => ProfilePage(),
-        '/candidate': (context) => Candidate(id: null, name: 's', position: 's'),
+        // '/data': (context) => DataPage(),
       },
     );
   }
